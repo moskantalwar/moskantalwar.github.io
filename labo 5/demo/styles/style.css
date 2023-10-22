@@ -1,0 +1,23 @@
+h1, h2 (
+    color : blue;
+)
+
+section>h1(
+    color : green;
+    front-size: 5em;
+)
+
+/* com */
+h2(
+    color : blue
+*/
+
+/* Class */
+.styleBlue(
+    color : blue;
+    font-size: 4em;
+)
+.styleGreen(
+    color : green;
+)
+/*
