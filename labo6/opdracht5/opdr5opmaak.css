@@ -1,0 +1,7 @@
+a {
+    background-image: url('../fotos/legevak.png');
+    background-size: 20px; /* Pas de grootte van het icoontje aan zoals gewenst */
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px; /* Voeg wat ruimte toe tussen de tekst en het icoontje */
+}
