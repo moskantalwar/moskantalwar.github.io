@@ -1,0 +1,25 @@
+/* Stijl voor het body-element */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: Silver;
+    color: DarkBlue;
+    background-image: url('../fotos/sterren.png')
+}
+
+/* Stijl voor h1-element */
+h1 {
+    font-variant: small-caps;
+    background-color: Red;
+    display: inline; /* Voeg dit toe om de achtergrondkleur volledig horizontaal uit te strekken */
+}
+
+/* Stijl voor hover-effect op links */
+a:hover {
+    border: 2px solid DarkOrange; /* Bepaal zelf de stijl van het kadertje */
+}
+
+/* Stijl voor elementen met klasse 'stippeltjesrand' */
+.stippeltjesrand {
+    border: 1px dotted Black;
+}
