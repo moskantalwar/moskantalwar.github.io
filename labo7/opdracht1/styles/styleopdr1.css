@@ -1,0 +1,15 @@
+body {
+    width:95%;
+    margin:auto;
+    border:2px solid black;
+}
+
+.title {
+    background-image: url("../images/natuurr.jpg");
+    height: 100px;
+    color: white;
+}
+
+.title h1 {
+    margin-top: 0;
+}
