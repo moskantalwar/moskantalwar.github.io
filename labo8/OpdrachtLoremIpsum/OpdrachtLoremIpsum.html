@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twee Kolommen Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .column {
+            flex: 1;
+            width: 50%;
+            box-sizing: border-box; /* Voeg deze regel toe */
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="column">
+        <section>
+            <h2>eerste kolom</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue urna euismod orci rhoncus, sed tempus massa convallis. Suspendisse tempor bibendum purus quis porta. Proin ultrices vel erat vel posuere. Nullam aliquam, lectus at commodo rhoncus, erat ligula cursus sapien, ac faucibus urna ipsum id lorem. Vestibulum viverra sapien id dui condimentum tempus a ultricies odio. Sed eget consectetur mi. Vivamus ultricies nisi odio, eu facilisis dolor scelerisque in. Integer a blandit est.
+
+                Etiam varius pulvinar mattis. Aenean in quam turpis. Sed in rutrum sem. Maecenas sed aliquam tellus. Ut laoreet magna ut hendrerit sodales. Proin molestie nisi ex, vitae imperdiet diam fermentum vel. Etiam cursus ante nibh, a cursus mauris lobortis ac. Nulla ante risus, porta in ullamcorper ac, euismod sed lectus. Nam eget urna efficitur, vulputate diam sed, feugiat ante. Vestibulum finibus, ligula vitae bibendum tristique, neque justo aliquam mi, ut rhoncus nunc mi a neque. Aliquam viverra, lacus ut dictum ultrices, nisi massa sodales odio, sit amet euismod nibh tellus ultricies nisl. Nunc et est a tellus pellentesque hendrerit non vitae tellus. Pellentesque in turpis lorem. Nullam congue felis massa, a convallis eros porta sit amet.
+
+                Vestibulum ornare vestibulum ligula quis aliquam. Etiam imperdiet velit eu mauris commodo, id ornare ante tincidunt. Nulla porttitor, enim eget elementum viverra, quam urna aliquam arcu, in porta augue libero sit amet massa. In pretium, tellus et egestas blandit, turpis lacus pellentesque enim, et pharetra risus tortor vehicula libero. Nam ut rhoncus augue, eu pretium eros. Suspendisse at arcu id dui efficitur elementum. Suspendisse dignissim consequat arcu elementum auctor. Mauris sed velit finibus erat varius imperdiet eu dapibus ligula. Nullam non nunc lobortis, bibendum mi eu, dictum metus.
+
+                Nullam euismod porta vestibulum. Curabitur ullamcorper cursus dolor ac mattis. Nulla nibh leo, maximus non mi sit amet, mollis rutrum tortor. Nulla mollis ante sed nibh aliquam venenatis. Sed vestibulum vulputate purus, id vehicula diam mattis at. Quisque sollicitudin non ligula in gravida. Aenean vestibulum mattis facilisis. Donec auctor faucibus magna, vitae pulvinar sapien pharetra nec. Aenean malesuada urna ligula, pulvinar dictum ante eleifend at. Ut accumsan, urna non commodo blandit, magna arcu porttitor est, sit amet egestas odio erat nec dolor. In hac habitasse platea dictumst. Fusce ut rutrum sapien. Aenean et turpis lacinia, gravida risus eu, pulvinar arcu. Mauris efficitur fringilla magna eu vulputate. Mauris nisi mi, condimentum sit amet dictum quis, feugiat eu diam. Phasellus id aliquam justo, eget scelerisque nulla.
+
+                Vivamus ultricies ipsum et magna finibus, ac scelerisque urna interdum. Ut tempor, nulla mattis tristique placerat, nisi mi eleifend augue, et tempor magna est eget dui. Maecenas ut imperdiet arcu. Quisque cursus velit a ante gravida placerat. Morbi eget mi purus. Ut ac tortor eget tellus vehicula lobortis. In interdum risus in odio posuere tristique. Suspendisse potenti.</p>
+
+        </section>
+    </div>
+
+    <div class="column">
+        <section>
+            <h2>tweede kolom</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue urna euismod orci rhoncus, sed tempus massa convallis. Suspendisse tempor bibendum purus quis porta. Proin ultrices vel erat vel posuere. Nullam aliquam, lectus at commodo rhoncus, erat ligula cursus sapien, ac faucibus urna ipsum id lorem. Vestibulum viverra sapien id dui condimentum tempus a ultricies odio. Sed eget consectetur mi. Vivamus ultricies nisi odio, eu facilisis dolor scelerisque in. Integer a blandit est.
+
+                Etiam varius pulvinar mattis. Aenean in quam turpis. Sed in rutrum sem. Maecenas sed aliquam tellus. Ut laoreet magna ut hendrerit sodales. Proin molestie nisi ex, vitae imperdiet diam fermentum vel. Etiam cursus ante nibh, a cursus mauris lobortis ac. Nulla ante risus, porta in ullamcorper ac, euismod sed lectus. Nam eget urna efficitur, vulputate diam sed, feugiat ante. Vestibulum finibus, ligula vitae bibendum tristique, neque justo aliquam mi, ut rhoncus nunc mi a neque. Aliquam viverra, lacus ut dictum ultrices, nisi massa sodales odio, sit amet euismod nibh tellus ultricies nisl. Nunc et est a tellus pellentesque hendrerit non vitae tellus. Pellentesque in turpis lorem. Nullam congue felis massa, a convallis eros porta sit amet.
+
+                Vestibulum ornare vestibulum ligula quis aliquam. Etiam imperdiet velit eu mauris commodo, id ornare ante tincidunt. Nulla porttitor, enim eget elementum viverra, quam urna aliquam arcu, in porta augue libero sit amet massa. In pretium, tellus et egestas blandit, turpis lacus pellentesque enim, et pharetra risus tortor vehicula libero. Nam ut rhoncus augue, eu pretium eros. Suspendisse at arcu id dui efficitur elementum. Suspendisse dignissim consequat arcu elementum auctor. Mauris sed velit finibus erat varius imperdiet eu dapibus ligula. Nullam non nunc lobortis, bibendum mi eu, dictum metus.
+
+                Nullam euismod porta vestibulum. Curabitur ullamcorper cursus dolor ac mattis. Nulla nibh leo, maximus non mi sit amet, mollis rutrum tortor. Nulla mollis ante sed nibh aliquam venenatis. Sed vestibulum vulputate purus, id vehicula diam mattis at. Quisque sollicitudin non ligula in gravida. Aenean vestibulum mattis facilisis. Donec auctor faucibus magna, vitae pulvinar sapien pharetra nec. Aenean malesuada urna ligula, pulvinar dictum ante eleifend at. Ut accumsan, urna non commodo blandit, magna arcu porttitor est, sit amet egestas odio erat nec dolor. In hac habitasse platea dictumst. Fusce ut rutrum sapien. Aenean et turpis lacinia, gravida risus eu, pulvinar arcu. Mauris efficitur fringilla magna eu vulputate. Mauris nisi mi, condimentum sit amet dictum quis, feugiat eu diam. Phasellus id aliquam justo, eget scelerisque nulla.
+
+                Vivamus ultricies ipsum et magna finibus, ac scelerisque urna interdum. Ut tempor, nulla mattis tristique placerat, nisi mi eleifend augue, et tempor magna est eget dui. Maecenas ut imperdiet arcu. Quisque cursus velit a ante gravida placerat. Morbi eget mi purus. Ut ac tortor eget tellus vehicula lobortis. In interdum risus in odio posuere tristique. Suspendisse potenti.</p>
+
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
