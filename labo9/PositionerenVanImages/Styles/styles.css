@@ -1,0 +1,30 @@
+article {
+    border: 1px solid black; /* Voeg een 1px dikke kader toe met een grijze kleur */
+    padding: 10px; /* Voeg wat ruimte binnenin het kader toe */
+    margin-bottom: 10px; /* Voeg wat ruimte onder elk artikel toe */
+    box-sizing: border-box;
+}
+body {
+    margin: 10px; /* Ruimte aan alle zijden van de body */
+}
+h2 {
+    font-size: 1.25em; /* Lettergrootte van de kop */
+}
+
+p {
+    margin: 10px 0; /* Marge tussen de tekst en afbeelding */
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Marge tussen de artikels */
+}
+article:nth-child(even) img {
+    float: right;
+}
+article:nth-child(odd) img {
+    float: left;
+}
+
+
+
