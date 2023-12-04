@@ -1,0 +1,80 @@
+
+
+
+body {
+	font: 1.2em/1.2 Helvetica, aria, sans-serif;
+	margin: 0 3%;
+}
+
+h1 {
+	font-size: 1.8em;
+	margin: .9em 0 0 0;
+}
+h2 {
+	font-size: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	background: black;
+	border-radius: 5px;
+	color: red;
+	margin: 0 0 25px 0;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+
+@media  {
+	
+}
+
+/* Standaard stijlen die van toepassing zijn op alle schermgroottes */
+
+/* 1) Phones < 768px */
+@media screen and (max-width: 767px) {
+	/* Plaats alle foto's onder elkaar */
+	.foto {
+		width: 100%; /* Zorg ervoor dat de foto's de volledige breedte innemen */
+		margin-bottom: 10px; /* Voeg wat ruimte toe tussen de foto's */
+	}
+}
+
+/* 2) Tablets >= 768px */
+@media screen and (min-width: 768px) {
+	/* Plaats twee foto's naast elkaar */
+	.foto {
+		width: 48%; /* Laat ruimte over voor een kleine marge tussen de foto's */
+		margin-right: 2%; /* Voeg een kleine marge tussen de foto's toe */
+		float: left; /* Laat de foto's naast elkaar zweven */
+	}
+
+	/* Verander de achtergrondkleur naar paars */
+	body {
+		background-color: purple;
+	}
+}
+
+/* 3) Desktops >= 992px */
+@media screen and (min-width: 992px) {
+	/* Plaats drie foto's naast elkaar */
+	.foto {
+		width: 30%; /* Laat ruimte over voor een kleine marge tussen de foto's */
+		margin-right: 2%; /* Voeg een kleine marge tussen de foto's toe */
+		float: left; /* Laat de foto's naast elkaar zweven */
+	}
+
+	/* Verander de achtergrondkleur naar groen */
+	body {
+		background-color: green;
+	}
+}
