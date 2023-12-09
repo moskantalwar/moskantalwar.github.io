@@ -1,0 +1,15 @@
+.container {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Aangepast naar 3 kolommen met een fractie van de beschikbare ruimte */
+}
+
+.container .block {
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+
+
+
