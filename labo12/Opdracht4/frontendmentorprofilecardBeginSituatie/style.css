@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Kumbh";
+  src: url(fonts/kumbh.ttf) format("truetype");
+}
+
+
+
+body {
+  font-size: 1.8em;
+  font-family: "Kumbh";
+  background: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg'), hsl(185, 75%, 39%);
+  background-repeat: no-repeat;
+  background-position: right calc(47vw + 15%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+  min-block-size: 100vh;
+  margin: 0;
+
+  /* zorg dat section-block in het midden komt */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+.card .additional-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+/* profilecard krijgt afgeronde hoeken */
+.card {
+  background: url('images/bg-pattern-card.svg') no-repeat, white;
+  border-radius: .5em;
+  min-block-size: 20rem;
+  inline-size: 100%;
+  max-inline-size: 350px;
+
+ /* tip: gebruik flex-direction"  */
+  border: 2px solid #ccc;
+  padding: 0.5px;
+  text-align: center;
+  flex-direction: inherit;
+}
+
+
+
+
+.card .profile-picture-wrapper {
+
+  margin-block-start: 4.5em;
+
+}
+
+.card header {
+  text-align: center;
+  border-block-end: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+
+.card header div {
+  display: inline-block;
+}
+
+/* foto krijgt een cirkelvorm */
+.card img {
+  border-radius: 100%;
+  border: .25em solid white;
+
+
+
+}
+
+.name {
+  font-weight: bold;
+}
+
+.card .stats {
+  font-size: .75rem;
+  inline-size: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-direction: row; /* Zet de richting op rij voor horizontale weergave */
+
+}
+
+.stats {
+  color: hsl(0, 0%, 59%);
+}
+
+.stats .amount {
+  color: initial;
+  font-size: 1.25em;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: auto;
+  align-items: flex-end;
+}
+
+.card .stats>* {
+  text-align: center;
+  align-items: flex-end;
+}
+
+.age, .location {
+  color: hsl(0, 0%, 59%);
+}
+
+.location {
+  font-size: .75rem;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card header {
+
+}
+
+.card .profile-picture-wrapper {
+
+  margin-block-end: 1em;
+}
+.container {
+  display: flex;
+}
+
+
