@@ -1,0 +1,33 @@
+img {
+    position: absolute;
+}
+#arch {
+    top: 100px;
+    left: 100px;
+}
+#tech {
+    bottom: 100px;
+    right: 100px;
+    top: calc(100% - (100px + 120px));
+    left: calc(100% - (100px + 200px));
+}
+#animals {
+    top: 100px;
+    right: 100px;
+    left: calc(100% - (100px + 200px));
+}
+#nature {
+    left: 100px;
+    bottom: 100px;
+}
+
+@media screen and (min-width: 785px) {
+    .grid {
+        min-height: 800px;
+        grid-template-areas:
+            'header header header header header'
+            '. navigation main side-1 .';
+        grid-template-columns: 5% 10% auto 10% 5%;
+        grid-template-rows: 1fr 4fr 1fr;
+    }
+}
