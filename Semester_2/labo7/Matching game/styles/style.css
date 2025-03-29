@@ -1,0 +1,23 @@
+#playField{
+    height: 600px;
+    width: 700px;
+    border: solid black 5px;
+    margin: 50px auto 10px auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+img{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#gameWon {
+    font-size: 100px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+p {
+    margin: 0;
+}
